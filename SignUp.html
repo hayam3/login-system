@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/SignUp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+<div class=" container my-5  text-center   ">
+    <div class=" content m-auto w-75 p-5 b  ">
+    <h1 class="pb-4 ">Smart Login System</h1>
+
+    <div class=" ">
+      <input type="text" class="  rounded w-100 p-1 form-control bg-transparent  " id="userName" placeholder="Enter your name" onkeyup="validation()" >
+      <label for="name"></label>
+    </div>
+    <div class=" ">
+      <input type="email" class="  rounded w-100 p-1  form-control bg-transparent " id="userEmail" placeholder="Enter your email" onkeyup="validation()" >
+      <label for="email"></label>
+    </div>
+
+    <div class="mb-">
+        <input type="password" class="  rounded w-100 p-1   form-control bg-transparent " id="userPassword" placeholder="Enter your password" onkeyup="validation()" >
+        <label for="password"></label>
+      </div>
+ 
+            <p class="text-success mb-4 d-none" id="Success">Success</p>
+            <p class="text-danger mb-4 d-none" id="checkEmpty">All inputs is required</p>
+            <p class="text-danger mb-4 d-none" id="checkExists">email already exists</p>
+            <p  class="text-danger mb-4 d-none " id="not-valid" >email or password is not valid</p>
+
+      <button class="btn btn-outline-info w-100" onclick="signUp()">Sign Up</button>
+
+      <p class="pt-4 text-light ">You have an account ? <a href="./index.html" class="text-decoration-none text-light">Sign in</a></p>
+
+    </div>
+</div>
+
+ 
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+     <script src="./js/SignUp.js"></script>
+</body>
+</html>

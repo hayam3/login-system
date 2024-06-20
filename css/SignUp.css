@@ -1,0 +1,29 @@
+body {
+    background: #24353f;
+    /* font-family: 'Titillium Web', sans-serif; */
+}
+  
+  
+h1{
+  
+
+  font-family:"Titillium Web" sans-serif;
+    font-weight: 500;
+  color:RGB(23, 162, 184);
+}
+
+
+.content{
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+
+  input{
+background-color:transparent;
+color:#b9b9b9;
+
+border: 1px solid ;
+  box-sizing: border-box;
+  }
+
+ 
